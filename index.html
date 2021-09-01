@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock App | Vanilla JS</title>
+    <link rel="icon" href="assets/svg/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page__container">
+        <div class="page__clock clock">
+          <div class="clock__face clock-face">
+            <span class="clock-face__item clock-face__item--top">12</span>
+            <span class="clock-face__item clock-face__item--right">3</span>
+            <span class="clock-face__item clock-face__item--bottom">6</span>
+            <span class="clock-face__item clock-face__item--left">9</span>
+          </div>
+          <div class="clock__weather weather">
+            <div class="weather__item weather__item--temp">
+              <span class="weather__icon"></span>
+              <span class="weather__deg"></span>
+            </div>
+            <div class="weather__item weather__item--descr"></div>
+            <div class="weather__item weather__item--city"></div>
+          </div>
+          <div class="clock__arrows arrows">
+            <span class="arrows__item arrows__item--hour"></span>
+            <span class="arrows__item arrows__item--minute"></span>
+            <span class="arrows__item arrows__item--second"></span>
+          </div>
+          <div class="clock__date date">
+            <div class="date__item date__item--time"></div>
+            <div class="date__item date__item--date"></div>
+            <div class="date__item date__item--year"></div>
+          </div>
+        </div>
+    <script src="/script.js"></script>
+</body>
+</html>
